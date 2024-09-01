@@ -11,11 +11,23 @@ img {
   width: 600px;
 }
 
+.content {
+  display: flex;
+  justify-content: center;
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  flex: 0 0 100%;
+}
+
+header {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
 }
 
 input {
@@ -23,4 +35,18 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #555;
+}
+
+.footer {
+  background-color: #eee;
+  padding: 8px;
 }
